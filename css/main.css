@@ -233,6 +233,7 @@ textarea {
     margin-left: 30%;
     position: absolute;
     margin-top: 10%;
+    width: 100%;
 }
 
 #navigation ul li {
