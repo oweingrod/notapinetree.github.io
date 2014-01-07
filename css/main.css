@@ -122,14 +122,13 @@ textarea {
     font-size: 1.5em;
     margin-left: 30%;
     margin-top: 150px;
-    height: 500px;
-    width: 50px;
 
 }
 
 #navigation ul {
-
     list-style: none;
+    padding-bottom: 30px;
+
 }
 #navigation ul li {
     padding-bottom: 30px;
@@ -137,7 +136,7 @@ textarea {
 
 #navigation ul li a {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 
 }
 
@@ -207,10 +206,18 @@ textarea {
 }
 
 /****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
 
-@media screen and (min-width: 481px) {
-    
-    #oren{ 
+
+
+
+
+
+#oren{ 
 }
 
 #oren-is{
@@ -222,28 +229,32 @@ textarea {
     margin: auto;
     text-align: center;
     position: relative;
-    padding-top: 15%;
+    padding-top: 20%;
 }
 
 
 
 #navigation {
     list-style: none;
-    font-size: 1.25em;
-    margin-left: 30%;
-    position: absolute;
-    margin-top: 10%;
-    width: 100%;
+    font-size: 1.5em;
+    margin-left: 36.5%;
+    margin-top: 150px;
+
 }
 
+#navigation ul {
+    list-style: none;
+    padding-bottom: 30px;
+
+}
 #navigation ul li {
-    display: inline;
-    padding-right: 70px;
+    padding-bottom: 30px;
 }
 
 #navigation ul li a {
     color: black;
     text-decoration: none;
+
 }
 
 #navigation ul li a:visited{
@@ -256,9 +267,10 @@ textarea {
     width: 275px;
     height: 25px;
     margin: auto;
-    margin-top: 30%;
+    margin-top: 10px;
     text-align: center;
     font-size: 1em;
+    margin-left: 165px;
 }
 
 .generate-buzzword{
@@ -269,9 +281,9 @@ textarea {
     background-color: #8ace0f;
     text-decoration: none;
     padding: 10px 10px 10px 10px;
-    position: fixed;
-    margin-top: 3%;
-    margin-left: 44%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 32.5%;
     color:white;
     font-family: 'Cabin', sans-serif;
     background: #8ace0f; /* Old browsers */
@@ -295,20 +307,6 @@ textarea {
 
 }
 
-.generate-buzzword:hover{
-    background: #0DEBFF; /* Old browsers */
-    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjOGFjZTBmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2FhY2M2YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-    background: -moz-linear-gradient(-45deg,  #0DEBFF 0%, #aacc6c 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#0DEBFF), color-stop(100%,#aacc6c)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(-45deg,  #0DEBFF 0%,#aacc6c 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(-45deg,  #0DEBFF 0%,#aacc6c 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(-45deg,  #0DEBFF 0%,#aacc6c 100%); /* IE10+ */
-    background: linear-gradient(135deg,  #0DEBFF 0%,#aacc6c 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ace0f', endColorstr='#aacc6c',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
-        }
-
-}
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
